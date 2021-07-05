@@ -7,6 +7,20 @@ header{
     margin: 0%;
     padding: 0%;
 }
+.section1{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section2{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section3{
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
 section{
     display: flex;
 }
@@ -32,12 +46,14 @@ h1{
     display: flex;
 }
 .div4{
-    padding: 5%;
-    width: 100%;
-
+    padding: 2%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
     box-shadow: 10px 10px 50px rgb(4, 182, 253);
-    border-radius: 100px;
-    border: blue solid 7px;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+    border-left: solid 10px;
 }
 .name{
     color: blue;
