@@ -28,6 +28,17 @@ h1{
     text-align: justify;
     padding: 5%;
 }
+.main-div{
+    display: flex;
+}
+.div4{
+    padding: 5%;
+    width: 100%;
+
+    box-shadow: 10px 10px 50px rgb(4, 182, 253);
+    border-radius: 100px;
+    border: blue solid 7px;
+}
 .name{
     color: blue;
 }
@@ -38,5 +49,7 @@ h1{
     padding: 10px 41px;
     font-weight: 800;
     border-radius: 10px;
-    
+}
+footer{
+    text-align: center;
 }
